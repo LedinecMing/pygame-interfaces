@@ -42,7 +42,7 @@ class Button(Interface):
 		self.contents=content
 		self.click=onClick
 
-objects=[Interface(content=[Image("brawl.jpg"),Text(size=100)])]
+objects=[Interface(content=[Text(size=100)])]
 
 while 1:
 	for i in objects:
